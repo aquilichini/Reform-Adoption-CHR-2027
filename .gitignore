@@ -1,0 +1,54 @@
+# Python / Byte-compiled files
+__pycache__/
+**/*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.coverage.*
+
+# Linting & Formatting
+.flake8
+.mypy_cache/
+.ruff_cache/
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated
+.DS_Store
+Thumbs.db
+
+# Claude Code
+.claude/
+
+# Custom
+/output/preprocessed_conllu_corpus.json
+/output/classified_conllu_corpus.json
+/output/preprocessed_conllu_corpus.json.zip
+/models/
+**/*.png
+**/*.conllu
+.idea
+bug.txt
+*.pdf
+**/*.tex
+**/*.bib
+**/*.txt

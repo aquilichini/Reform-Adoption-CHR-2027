@@ -1,0 +1,137 @@
+rule_id,reform_id,reform_year,effective_year,language,lemma,old_form,new_form,change_type,status_before,status_after,evidence_type,source,confidence,pos_filter,feats_filter,normative_effect
+nn_1901_001,nn_1901,1901,1901,nn,kastade,kastade,kasta,verb_past,main_form,main_form,documented,Documentation of the 1901 Norwegian orthographic reform,medium,,,no_status_change
+nn_1901_002,nn_1901,1901,1901,nn,kastad,kastad,kasta,verb_participle,main_form,main_form,documented,Documentation of the 1901 Norwegian orthographic reform,medium,,VerbForm=Part,no_status_change
+nn_1901_003,nn_1901,1901,1901,nn,kastat,kastat,kasta,verb_participle,main_form,main_form,documented,Documentation of the 1901 Norwegian orthographic reform,medium,,VerbForm=Part,no_status_change
+nn_1901_005,nn_1901,1901,1901,nn,skrivet,skrivet,skrive,verb_participle,main_form,main_form,documented,Documentation of the 1901 Norwegian orthographic reform,medium,,VerbForm=Part,no_status_change
+nn_1901_006,nn_1901,1901,1901,nn,visorna,visorna,visorne,noun_plural,main_form,main_form,documented,Documentation of the 1901 Norwegian orthographic reform,medium,,,no_status_change
+nn_1901_007,nn_1901,1901,1901,nn,skaalerna,skaalerna,skaalerne,noun_plural,main_form,main_form,documented,Documentation of the 1901 Norwegian orthographic reform,medium,,,no_status_change
+nb_1907_001,nb_1907,1907,1907,nb,dyb,dyb,dyp,orthography_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_002,nb_1907,1907,1907,nb,vide,vide,vite,orthography_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_003,nb_1907,1907,1907,nb,sag,sag,sak,orthography_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_004,nb_1907,1907,1907,nb,heste,heste,hester,noun_plural,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_005,nb_1907,1907,1907,nb,fjæder,fjæder,fjær,orthography_silent_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_007,nb_1907,1907,1907,nb,dræbe,dræbe,dræpe,orthography_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_008,nb_1907,1907,1907,nb,aaben,aaben,aapen,orthography_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_009,nb_1907,1907,1907,nb,ud,ud,ut,orthography_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_010,nb_1907,1907,1907,nb,kage,kage,kake,orthography_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_011,nb_1907,1907,1907,nb,greb,greb,grep,orthography_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_012,nb_1907,1907,1907,nb,æble,æble,eple,orthography_consonant,main_form,optional,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,main_to_optional
+nb_1907_013,nb_1907,1907,1907,nb,bod,bod,bot,orthography_consonant,main_form,optional,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,main_to_optional
+nb_1907_014,nb_1907,1907,1907,nb,klog,klog,klok,orthography_consonant,main_form,optional,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,main_to_optional
+nb_1907_015,nb_1907,1907,1907,nb,bog,bog,bok,orthography_consonant,main_form,optional,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,main_to_optional
+nb_1907_016,nb_1907,1907,1907,nb,gaade,gaade,gaate,orthography_consonant,main_form,optional,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,main_to_optional
+nb_1907_017,nb_1907,1907,1907,nb,hob,hob,hopp,orthography_double_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_018,nb_1907,1907,1907,nb,had,had,hatt,orthography_double_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_019,nb_1907,1907,1907,nb,bug,bug,bukk,orthography_double_consonant,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_020,nb_1907,1907,1907,nb,have,have,ha,verb_infinitive,main_form,optional,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,main_to_optional
+nb_1907_021,nb_1907,1907,1907,nb,drage,drage,dra,verb_infinitive,main_form,optional,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,main_to_optional
+nb_1907_022,nb_1907,1907,1907,nb,blive,blive,bli,verb_infinitive,main_form,optional,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,main_to_optional
+nb_1907_023,nb_1907,1907,1907,nb,tage,tage,ta,verb_infinitive,main_form,optional,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,main_to_optional
+nb_1907_024,nb_1907,1907,1907,nb,sagde,sagde,sa,verb_past,main_form,optional,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,main_to_optional
+nb_1907_025,nb_1907,1907,1907,nb,kastede,kastede,kastet,verb_past,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_026,nb_1907,1907,1907,nb,fiskede,fiskede,fisket,verb_past,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_027,nb_1907,1907,1907,nb,svarede,svarede,svarte,verb_past,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_028,nb_1907,1907,1907,nb,levede,levede,levde,verb_past,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_029,nb_1907,1907,1907,nb,eiede,eiede,eide,verb_past,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_030,nb_1907,1907,1907,nb,boede,boede,bodde,verb_past,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_031,nb_1907,1907,1907,nb,naaede,naaede,naadde,verb_past,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_032,nb_1907,1907,1907,nb,heldigt,heldigt,heldig,adjective,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1907_033,nb_1907,1907,1907,nb,ærligt,ærligt,ærlig,adjective,main_form,main_form,documented,Documentation of the 1907 Bokmål orthographic reform,medium,,,no_status_change
+nb_1917_001,nb_1917,1917,1917,nb,længe,længe,lenge,orthography_vowel,main_form,main_form,documented,Documentation of the 1917 Bokmål orthographic reform,medium,,,no_status_change
+nb_1917_002,nb_1917,1917,1917,nb,chokolade,chokolade,sjokolade,orthography_foreign_word,main_form,main_form,documented,Documentation of the 1917 Bokmål orthographic reform,medium,,,no_status_change
+nb_1917_003,nb_1917,1917,1917,nb,draabe,draabe,dråpe,orthography_vowel,main_form,main_form,documented,Documentation of the 1917 Bokmål orthographic reform,medium,,,no_status_change
+nb_1917_004,nb_1917,1917,1917,nb,rig,rig,rik,orthography_consonant,main_form,main_form,documented,Documentation of the 1917 Bokmål orthographic reform,medium,,,no_status_change
+nn_1917_001,nn_1917,1917,1917,nn,båtarne,båtarne,båtane,noun_plural,main_form,main_form,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,no_status_change
+nn_1917_002,nn_1917,1917,1917,nn,bygderne,bygderne,bygdene,noun_plural,main_form,main_form,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,no_status_change
+nn_1917_003,nn_1917,1917,1917,nn,ei visa,ei visa,ei vise,noun_declension,main_form,main_form,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,no_status_change
+nn_1917_004,nn_1917,1917,1917,nn,breid,breid,brei,orthography_silent_consonant,main_form,main_form,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,no_status_change
+nn_1917_005,nn_1917,1917,1917,nn,styvel,styvel,støvel,orthography_vowel,main_form,main_form,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,no_status_change
+nn_1917_006,nn_1917,1917,1917,nn,burt,burt,bort,orthography_vowel,main_form,main_form,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,no_status_change
+nn_1917_007,nn_1917,1917,1917,nn,liva,liva,leva,orthography_vowel,main_form,main_form,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,no_status_change
+nn_1917_008,nn_1917,1917,1917,nn,tri,tri,tre,orthography_vowel,main_form,optional,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,main_to_optional
+nn_1917_009,nn_1917,1917,1917,nn,boki,boki,boka,noun_definite,main_form,optional,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,main_to_optional
+nn_1917_010,nn_1917,1917,1917,nn,husi,husi,husa,noun_plural,main_form,optional,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,main_to_optional
+nn_1917_011,nn_1917,1917,1917,nn,kasta,kasta,kaste,verb_infinitive,main_form,optional,documented,Documentation of the 1917 Nynorsk orthographic reform,medium,,,main_to_optional
+nb_1938_001,nb_1938,1938,1938,nb,høi,høi,høy,orthography_diphthong,main_form,main_form,explicit,1938 reform document supplied in the project sources,high,,,no_status_change
+nb_1938_002,nb_1938,1938,1938,nb,mig,mig,meg,pronoun,main_form,main_form,explicit,1938 reform document supplied in the project sources,high,,,no_status_change
+nb_1938_003,nb_1938,1938,1938,nb,dig,dig,deg,pronoun,main_form,main_form,explicit,1938 reform document supplied in the project sources,high,,,no_status_change
+nb_1938_004,nb_1938,1938,1938,nb,hvad,hvad,hva,pronoun,main_form,main_form,explicit,1938 reform document supplied in the project sources,high,,,no_status_change
+nb_1938_006,nb_1938,1938,1938,nb,gjennem,gjennem,gjennom,orthography,main_form,main_form,explicit,1938 reform document supplied in the project sources,high,,,no_status_change
+nb_1938_007,nb_1938,1938,1938,nb,mellem,mellem,mellom,orthography,main_form,main_form,explicit,1938 reform document supplied in the project sources,high,,,no_status_change
+nb_1938_008,nb_1938,1938,1938,nb,sne,sne,snø,orthography_vowel,main_form,main_form,explicit,1938 reform document supplied in the project sources,high,,,no_status_change
+nb_1938_009,nb_1938,1938,1938,nb,sprog,sprog,språk,orthography_vowel,main_form,main_form,explicit,1938 reform document supplied in the project sources,high,,,no_status_change
+nb_1938_010,nb_1938,1938,1938,nb,efter,efter,etter,orthography_consonant,main_form,main_form,explicit,1938 reform document supplied in the project sources,high,,,no_status_change
+nb_1938_011,nb_1938,1938,1938,nb,nu,nu,nå,orthography_vowel,main_form,main_form,explicit,1938 reform document supplied in the project sources,high,,,no_status_change
+nb_1938_013,nb_1938,1938,1938,nb,selv,selv,sjøl,orthography_pronunciation,main_form,sideform,explicit,1938 reform document supplied in the project sources,high,,,main_to_side
+nb_1938_015,nb_1938,1938,1938,nb,kol,kol,kull,orthography_consonant,main_form,sideform,documented,1938 reform document supplied in the project sources,medium,,,main_to_side
+nb_1938_016,nb_1938,1938,1938,nb,vogge,vogge,vugge,orthography_vowel,main_form,sideform,documented,1938 reform document supplied in the project sources,medium,,,main_to_side
+nb_1938_018,nb_1938,1938,1938,nb,melk,melk,mjølk,orthography_vowel,main_form,sideform,explicit,1938 reform document supplied in the project sources,high,,,main_to_side
+nb_1938_020,nb_1938,1938,1938,nb,fram,fram,frem,orthography_vowel,main_form,sideform,documented,1938 reform document supplied in the project sources,medium,,,main_to_side
+nn_1938_001,nn_1938,1938,1938,nn,millom,millom,mellom,orthography_vowel,main_form,main_form,documented,1938 reform document supplied in the project sources,medium,,,no_status_change
+nn_1938_002,nn_1938,1938,1938,nn,myrk,myrk,mørk,orthography_vowel,main_form,main_form,documented,1938 reform document supplied in the project sources,medium,,,no_status_change
+nn_1938_003,nn_1938,1938,1938,nn,boki,boki,boka,noun_definite,main_form,main_form,documented,1938 reform document supplied in the project sources,medium,,,no_status_change
+nn_1938_004,nn_1938,1938,1938,nn,husi,husi,husa,noun_plural,main_form,main_form,documented,1938 reform document supplied in the project sources,medium,,,no_status_change
+nn_1938_005,nn_1938,1938,1938,nn,vore,vore,vori,verb_participle,sideform,main_form,documented,1938 reform document supplied in the project sources,medium,,,side_to_main
+nn_1938_006,nn_1938,1938,1938,nn,funne,funne,funni,verb_participle,sideform,main_form,documented,1938 reform document supplied in the project sources,medium,,,side_to_main
+nb_1959_001,nb_1959,1959,1959,nb,rein,ren,rein,lexical_vowel,sideform,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,side_to_main
+nb_1959_003,nb_1959,1959,1959,nb,grøsse,grøste,grøsset,verb_past,main_form,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,main_to_main
+nb_1959_004,nb_1959,1959,1959,nb,stønne,stønte,stønnet,verb_past,main_form,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,main_to_main
+nb_1959_005,nb_1959,1959,1959,nb,danse,danste,danset,verb_past,main_form,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,main_to_main
+nb_1959_006,nb_1959,1959,1959,nb,greie,greidde,greide,verb_past,main_form,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,main_to_main
+nb_1959_007,nb_1959,1959,1959,nb,grei,greitt,greit,adjective_neuter,main_form,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,main_to_main
+nb_1959_008,nb_1959,1959,1959,nb,dugg,dugg,dogg,lexical_vowel,sideform,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,side_to_main
+nb_1959_009,nb_1959,1959,1959,nb,tross,tross,trass,lexical_vowel,sideform,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,side_to_main
+nb_1959_010,nb_1959,1959,1959,nb,trøtt,trett,trøtt,lexical_vowel,sideform,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,side_to_main
+nb_1959_011,nb_1959,1959,1959,nb,mjøl,mel,mjøl,lexical_vowel,sideform,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,side_to_main
+nb_1959_012,nb_1959,1959,1959,nb,sein,sen,sein,lexical_vowel,sideform,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,side_to_main
+nb_1959_013,nb_1959,1959,1959,nb,mage,mave,mage,lexical_consonant,sideform,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,side_to_main
+nb_1959_014,nb_1959,1959,1959,nb,høst,haust,høst,lexical_vowel,sideform,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,side_to_main
+nb_1959_015,nb_1959,1959,1959,nb,hvalp,hvalp,valp,initial_consonant,main_form,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,main_to_main
+nb_1959_016,nb_1959,1959,1959,nb,hverken,hverken,verken,initial_consonant,main_form,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,main_to_main
+nb_1959_017,nb_1959,1959,1959,nb,hvirvel,hvirvel,virvel,initial_consonant,main_form,main_form,documented,Documentation of the 1959 Bokmål reform,medium,,,main_to_main
+nn_1959_001,nn_1959,1959,1959,nn,kaste,kasta,kaste,verb_infinitive,sideform,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,side_to_main
+nn_1959_003,nn_1959,1959,1959,nn,vera,vere,vera,verb_infinitive,main_form,sideform,documented,Documentation of the 1959 Nynorsk reform,medium,,,main_to_side
+nn_1959_005,nn_1959,1959,1959,nn,broti,broti,brote,verb_supine,sideform,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,side_to_main
+nn_1959_006,nn_1959,1959,1959,nn,funni,funni,funne,verb_supine,sideform,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,side_to_main
+nn_1959_007,nn_1959,1959,1959,nn,vori,vori,vore,verb_supine,sideform,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,side_to_main
+nn_1959_008,nn_1959,1959,1959,nn,kvilde,kvilde,kvilte,verb_past,main_form,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,no_status_change
+nn_1959_009,nn_1959,1959,1959,nn,førde,førde,førte,verb_past,main_form,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,no_status_change
+nn_1959_010,nn_1959,1959,1959,nn,lærde,lærde,lærte,verb_past,main_form,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,no_status_change
+nn_1959_011,nn_1959,1959,1959,nn,gamal,gamal,gammal,lexical_consonant,sideform,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,side_to_main
+nn_1959_012,nn_1959,1959,1959,nn,sumar,sumar,sommar,lexical_consonant,sideform,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,side_to_main
+nn_1959_013,nn_1959,1959,1959,nn,drøm,drøm,draum,orthography_diphthong,main_form,sideform,documented,Documentation of the 1959 Nynorsk reform,medium,,,main_to_side
+nn_1959_014,nn_1959,1959,1959,nn,fylgje,fylgje,følgje,orthography_vowel,sideform,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,side_to_main
+nn_1959_015,nn_1959,1959,1959,nn,fyrst,fyrst,først,orthography_vowel,sideform,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,side_to_main
+nn_1959_016,nn_1959,1959,1959,nn,drope,drope,dråpe,orthography_vowel,main_form,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,main_to_main
+nn_1959_017,nn_1959,1959,1959,nn,tåle,tole,tåle,orthography_vowel,main_form,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,main_to_main
+nn_1959_018,nn_1959,1959,1959,nn,gjente,gjente,jente,initial_consonant,sideform,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,side_to_main
+nn_1959_019,nn_1959,1959,1959,nn,annen,annan,annen,pronoun/adjective,sideform,main_form,documented,Documentation of the 1959 Nynorsk reform,medium,,,side_to_main
+nb_1981_001,nb_1981,1981,1982,nb,boka,boka,boken,noun_feminine_definite,main_form,sideform,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main_equal
+nb_1981_002,nb_1981,1981,1982,nb,sola,sola,solen,noun_feminine_definite,main_form,sideform,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main_equal
+nb_1981_003,nb_1981,1981,1982,nb,kua,kua,kuen,noun_feminine_definite,main_form,sideform,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_side
+nb_1981_004,nb_1981,1981,1982,nb,hytta,hytta,hytten,noun_feminine_definite,main_form,sideform,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_side
+nb_1981_005,nb_1981,1981,1982,nb,jenta,jenta,jenten,noun_feminine_definite,main_form,sideform,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_side
+nb_1981_006,nb_1981,1981,1982,nb,øya,øya,øyen,noun_feminine_definite,main_form,sideform,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_side
+nb_1981_007,nb_1981,1981,1982,nb,dyra,dyra,dyrene,noun_neuter_plural_definite,main_form,sideform,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_008,nb_1981,1981,1982,nb,eplene,eplene,epla,noun_neuter_plural_definite,main_form,sideform,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_side
+nb_1981_009,nb_1981,1981,1982,nb,bana,bana,banet,verb_past,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_010,nb_1981,1981,1982,nb,bante,bante,banet,verb_past,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_011,nb_1981,1981,1982,nb,drypte,drypte,dryppet,verb_past,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_012,nb_1981,1981,1982,nb,hånte,hånte,hånet,verb_past,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_013,nb_1981,1981,1982,nb,stanste,stanste,stanset,verb_past,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_014,nb_1981,1981,1982,nb,svaide,svaide,svaiet,verb_past,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_015,nb_1981,1981,1982,nb,bøydde,bøydde,bøyde,verb_past,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_016,nb_1981,1981,1982,nb,fjøl,fjøl,fjel,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_017,nb_1981,1981,1982,nb,fram,fram,frem,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_018,nb_1981,1981,1982,nb,krage,krage,krave,lexical_consonant,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_019,nb_1981,1981,1982,nb,molte,molte,multe,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_020,nb_1981,1981,1982,nb,sør,sør,syd,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_021,nb_1981,1981,1982,nb,bru,bru,bro,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_022,nb_1981,1981,1982,nb,dokke,dokke,dukke,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_023,nb_1981,1981,1982,nb,graut,graut,grøt,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_024,nb_1981,1981,1982,nb,golv,golv,gulv,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_025,nb_1981,1981,1982,nb,mage,mage,mave,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_026,nb_1981,1981,1982,nb,mjøl,mjøl,mel,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_027,nb_1981,1981,1982,nb,mold,mold,muld,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_028,nb_1981,1981,1982,nb,rein,rein,ren,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main
+nb_1981_029,nb_1981,1981,1982,nb,sein,sein,sen,lexical_vowel,main_form,main_form,documented,Documentation of the 1981 Bokmål reform,medium,,,main_to_main

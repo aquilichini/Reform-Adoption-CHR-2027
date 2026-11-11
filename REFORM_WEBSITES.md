@@ -1,0 +1,10 @@
+https://snl.no/rettskrivingsreform
+https://snl.no/Rettskrivingsreforma_av_1901
+https://snl.no/Rettskrivingsreforma_av_1907
+https://snl.no/Rettskrivingsreforma_av_1917
+https://snl.no/Rettskrivingsreforma_av_1938
+https://snl.no/Rettskrivingsreforma_av_1941
+https://snl.no/Rettskrivingsreforma_av_1959
+https://snl.no/Rettskrivingsreforma_av_1981
+https://snl.no/Rettskrivingsreforma_av_2005
+https://snl.no/Rettskrivingsreforma_av_2012

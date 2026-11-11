@@ -18,34 +18,37 @@ If you use this code, kindly cite the paper:
 Conference website: https://2027.computational-humanities-research.org/.
 
 ## Repository organization
-Plots that appear in the paper can be found in [`notebooks/plots.ipynb`](notebooks/plots.ipynb).
-The [`src`](src) directory contains text processing pipelines, including CoNLL-U parsing and language classification.
-The [`tests`](tests) directory contains unit tests for key pieces of code.
-The [`data`](data) directory contains word pairs for each reform.
-A list of websites providing details on individual Norwegian language reforms can be found [here](REFORM_WEBSITES.md).
+* Plots that appear in the paper can be found in [`notebooks/plots.ipynb`](notebooks/plots.ipynb).
+* The [`src`](src) directory contains text processing pipelines, including CoNLL-U parsing and language classification.
+* The [`tests`](tests) directory contains unit tests for key pieces of code.
+* The [`data`](data) directory contains word pairs for each reform ([`rules.csv`](data/rules.csv)) and supporting statistics.
+* Run settings and paths are defined in [`src/config.py`](src/config.py).
+* See the [list of websites](REFORM_WEBSITES.md) providing details on individual Norwegian language reforms.
 
 ## Setup the environment
 
-First, [install uv](https://docs.astral.sh/uv/getting-started/installation/) and environment dependencies:
+The code requires Python 3.12.
+[Install uv](https://docs.astral.sh/uv/getting-started/installation/), then install the dependencies:
 ```bash
-uv venv
-.venv\Scripts\activate
 uv sync
 ```
-
-Alternatively, install inside a virtualenv (editable mode via pip):
-```bash
-python -m venv .venv
-.venv\Scripts\activate
-pip install -e .
-```
+This creates a `.venv` virtual environment with Python 3.12 and all dependencies.
+Run commands through `uv run` (as below), so there is no need to activate the environment.
+You can run the tests with `uv run pytest`.
 
 ## Reproducing the experiments
 
-The newspaper articles can be obtained from the [National Library of Norway](https://www.nb.no/).
-After acquiring the articles, run text processing via:
+While we cannot publish the newspaper articles due to licensing restricitons, they can be obtained from the [National Library of Norway](https://www.nb.no/).
+The pipeline expects the articles as a CoNLL-U corpus, with one `.conllu` file per newspaper issue, organized by newspaper and year:
+```
+<corpus_dir>/
+└── klassekampen/
+    └── 1922/
+        └── 19220729_klassekampen.conllu
+```
+Set `CORPUS_DIR` in [`src/config.py`](src/config.py) to the root of your corpus directory, then run text processing via:
 ```bash
 uv run src/main.py
 ```
-
-Finally, execute the [`plots.ipynb` notebook](notebooks/plots.ipynb), which displays adoption curve figures and stores them as `.pdf` files to the same directory.
+Intermediate results (preprocessed and language-classified corpus caches) are written to the `output` directory.  
+Finally, execute [`plots.ipynb`](notebooks/plots.ipynb), which displays adoption curve figures and stores them as `.pdf` files to the same directory.

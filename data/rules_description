@@ -1,0 +1,29 @@
+# Reform rules — methodological version
+
+## Schema
+
+`rule_id, reform_id, reform_year, effective_year, language, lemma, old_form, new_form, change_type, status_before, status_after, evidence_type, source, confidence`
+
+### Interpretation
+
+- `reform_year`: year the reform was adopted.
+- `effective_year`: year it became effective. 1981 is coded as 1982 because the 1981 Bokmål reform was implemented in 1982.
+- `old_form/new_form`: documented form relation; **not automatically an obligatory substitution**.
+- `status_before/status_after`: normative status before and after the reform.
+- `evidence_type`: `explicit`, `documented`, `inferred`, or `unknown`.
+- `source`: documentary basis.
+- `confidence`: documentary certainty only (`high`, `medium`, `low`, `unknown`).
+
+## Cleaning decisions
+
+1. The 1901 Midlandsnormalen block was removed from the main normative table because the available documentary basis does not justify coding it as an official `sideform` in the same sense as later normative categories.
+2. Rows with `old_form == new_form` were removed.
+3. The 1952 entries were not added: the relevant forms belong to the 1938 reform rather than to an independent reform in this dataset.
+4. `optional` was not retained as a final status. It is conservatively represented as `status_after = sideform`; this should be changed only when a primary source explicitly establishes another status.
+5. `confidence` is quality-control metadata. It must not enter adoption-rate calculations.
+6. 1959 and 1981 should be analysed as possible changes in normative status, not automatically as forced replacements.
+7. The 1981 reform has `reform_year = 1981` and `effective_year = 1982`.
+
+## Recommended main-analysis filter
+
+For the strictest analysis, use `evidence_type` in `explicit/documented` and preferably `confidence = high` for claims requiring row-level documentary certainty. Medium-confidence rules can be retained for sensitivity analyses.
